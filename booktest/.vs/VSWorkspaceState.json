@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App_Data",
+    "\\App_Start",
+    "\\bin",
+    "\\Content",
+    "\\Controllers",
+    "\\fonts",
+    "\\Models",
+    "\\obj",
+    "\\Properties",
+    "\\Views"
+  ],
+  "SelectedNode": "\\booktest.csproj",
+  "PreviewInSolutionExplorer": false
+}
