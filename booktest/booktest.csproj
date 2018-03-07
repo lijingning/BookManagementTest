@@ -152,7 +152,6 @@
     <Compile Include="Controllers\BookManagementController.cs" />
     <Compile Include="Controllers\ChangeSituationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LogInController.cs" />
     <Compile Include="Controllers\RemarkController.cs" />
     <Compile Include="Controllers\ShowRemarkController.cs" />
     <Compile Include="Controllers\SituationController.cs" />
@@ -199,15 +198,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\BookManagement\Create.cshtml" />
     <Content Include="Views\BookManagement\Delete.cshtml" />
     <Content Include="Views\BookManagement\Details.cshtml" />
     <Content Include="Views\BookManagement\Edit.cshtml" />
     <Content Include="Views\BookManagement\Index.cshtml" />
-    <Content Include="Views\LogIn\LogIn.cshtml" />
     <Content Include="Views\Situation\Situation.cshtml" />
     <Content Include="Views\Remark\Remark.cshtml" />
     <Content Include="Views\AddRemark\Create.cshtml" />
@@ -217,6 +212,7 @@
     <Content Include="Views\AddRemark\Index.cshtml" />
     <Content Include="Views\ShowRemark\ShowRemark.cshtml" />
     <Content Include="Views\ChangeSituation\ChangeSituation.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

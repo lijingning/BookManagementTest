@@ -1,19 +1,22 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@model booktest.Models.Book
+@model booktest.Models.Borrow
 
 <br />
 <br />
 <br />
 <h3>借书、还书</h3>
 
+@Html.DisplayNameFor(model => model.BookID)
+@Html.DisplayNameFor(model => model.ReturnDate)
+<br />
 <div>
     <form id="ChangeSituation form" action="ChangeSituation" method="post">
         <div id="head">
             <ul>
                 <li>
-                    请输入所借书籍的ID：<input id="ID" name="ID" type="text"/>
+                    请输入所借书籍的ID：<input id="ID" name="ID" type="text" />
                 </li>
                 <li>
                     请输入所还书籍的ID：<input id="ID" name="ID" type="text" />
@@ -21,9 +24,9 @@
             </ul>
         </div>
         <div id="body">
-            <input id="Submit" type="submit" value="submit" onclick="return sunbI()" />
+            <input id="Submit" type="submit" value="submit" onclick="return ChangeSituation(id)" />
         </div>
-    </form>   
+    </form>
 </div>
 
 
