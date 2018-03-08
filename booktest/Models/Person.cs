@@ -18,12 +18,4 @@ namespace booktest.Models
         List<Book> Books = new List<Book>();
     }
 
-    public class PeopleDBcontext : DbContext
-    {
-        public PeopleDBcontext()
-        {
-
-        }
-        public DbSet<Person> persons { get; set; }
-    }
 }

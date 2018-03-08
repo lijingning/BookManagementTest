@@ -161,3 +161,7 @@ C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.csprojR
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.csproj.CoreCompileInputs.cache
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.dll
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.pdb
+C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.InitialCreate.resources
+C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.csproj.GenerateResource.Cache
+C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.Books.resources
+C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.Description.resources

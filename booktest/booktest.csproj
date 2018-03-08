@@ -158,6 +158,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802051038538_InitialCreate.cs" />
+    <Compile Include="Migrations\201802051038538_InitialCreate.Designer.cs">
+      <DependentUpon>201802051038538_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803080839146_Books.cs" />
+    <Compile Include="Migrations\201803080839146_Books.Designer.cs">
+      <DependentUpon>201803080839146_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803080919323_Description.cs" />
+    <Compile Include="Migrations\201803080919323_Description.Designer.cs">
+      <DependentUpon>201803080919323_Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Borrow.cs" />
     <Compile Include="Models\Person.cs" />
@@ -229,6 +242,17 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201802051038538_InitialCreate.resx">
+      <DependentUpon>201802051038538_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803080839146_Books.resx">
+      <DependentUpon>201803080839146_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803080919323_Description.resx">
+      <DependentUpon>201803080919323_Description.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

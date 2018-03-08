@@ -27,13 +27,6 @@ namespace booktest.Models
         public Book Book = new Book();
         public Person Person = new Person();
     }
-    public class BorrowDBContext : DbContext
-    {
-        public BorrowDBContext()
-        {
 
-        }
-        public DbSet<Borrow> Borrow { get; set; }
-    }
 
 }

@@ -14,7 +14,7 @@ namespace booktest.Controllers
     public class HomeController : Controller
     {
        
-        private PeopleDBcontext db = new PeopleDBcontext();
+        private BooksDBContext db = new BooksDBContext();
         // GET: LogIn
         public ActionResult Index()
         {

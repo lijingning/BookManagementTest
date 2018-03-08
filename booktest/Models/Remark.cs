@@ -15,12 +15,4 @@ namespace booktest.Models
         public List<Person> Persons = new List<Person>();
     }
 
-    public class RemarkDBContext : BooksDBContext
-    {
-        public RemarkDBContext()
-        {
-
-        }
-        public DbSet<Remark> Remarks { get; set; }
-    }
 }

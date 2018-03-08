@@ -11,7 +11,7 @@ namespace booktest.Controllers
 {
     public class SituationController : Controller
     {
-        private BorrowDBContext db= new BorrowDBContext();
+        private BooksDBContext db = new BooksDBContext();
      
         public ActionResult Index()
         {
