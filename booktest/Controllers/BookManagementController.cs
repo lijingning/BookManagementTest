@@ -12,12 +12,12 @@ namespace booktest.Controllers
 {
     public class BookManagementController : Controller
     {
-        private BooksDBContext db = new BooksDBContext();
+        private booktest.Models.Database db = DatabaseContext.GetInstance();
 
         // GET: Books
         public ActionResult Index()
         {
-            return View(db.Books.ToList());
+            return View(db.Books.ToList());//aaaaaaaaaaaaaaaaaaa
         }
 
         // GET: Books/Details/5
@@ -36,7 +36,7 @@ namespace booktest.Controllers
         }
 
         // GET: Books/Create
-        public ActionResult Create()
+        public ActionResult Add()
         {
             return View();
         }
@@ -46,7 +46,7 @@ namespace booktest.Controllers
         // 详细信息，请参阅 https://go.microsoft.com/fwlink/?LinkId=317598。
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name,Author,Publisher,Summary,Language,Situation")] Book book)
+        public ActionResult Create([Bind(Include = "ID,Name,Author,Publisher,Description,Situation")] Book book)
         {
             if (ModelState.IsValid)
             {

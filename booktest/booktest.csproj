@@ -170,9 +170,15 @@
     <Compile Include="Migrations\201803080919323_Description.Designer.cs">
       <DependentUpon>201803080919323_Description.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803091529071_IDchange.cs" />
+    <Compile Include="Migrations\201803091529071_IDchange.Designer.cs">
+      <DependentUpon>201803091529071_IDchange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Borrow.cs" />
+    <Compile Include="Models\DatabaseContext.cs" />
+    <Compile Include="Models\Database.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Remark.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -200,7 +206,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -211,7 +219,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\BookManagement\Create.cshtml" />
+    <Content Include="Views\BookManagement\Add.cshtml" />
     <Content Include="Views\BookManagement\Delete.cshtml" />
     <Content Include="Views\BookManagement\Details.cshtml" />
     <Content Include="Views\BookManagement\Edit.cshtml" />
@@ -226,6 +234,8 @@
     <Content Include="Views\ShowRemark\ShowRemark.cshtml" />
     <Content Include="Views\ChangeSituation\ChangeSituation.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Remark\Index.cshtml" />
+    <Content Include="Views\Situation\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -252,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803080919323_Description.resx">
       <DependentUpon>201803080919323_Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803091529071_IDchange.resx">
+      <DependentUpon>201803091529071_IDchange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

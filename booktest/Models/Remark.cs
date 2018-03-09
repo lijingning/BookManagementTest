@@ -11,8 +11,8 @@ namespace booktest.Models
         public int ID { get; set; }
         public string Content { get; set; }
         public string Date { get; set; }
-        public List<Book> Books = new List<Book>();
-        public List<Person> Persons = new List<Person>();
+        public Book Book { get; set; }
+        public Person People { get; set; }
     }
 
 }

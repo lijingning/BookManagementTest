@@ -11,13 +11,16 @@ namespace booktest.Controllers
 {
     public class SituationController : Controller
     {
-        private BooksDBContext db = new BooksDBContext();
-     
+        private booktest.Models.Database db = DatabaseContext.GetInstance();
+
         public ActionResult Index()
         {
             return View();
         }
-
+        public ActionResult Search()
+        {
+            return View();
+        }
         public ActionResult Situation()
         {
             return View();
@@ -26,7 +29,7 @@ namespace booktest.Controllers
         [HttpPost]
         public ActionResult Situation(string Name)
         {
-            Borrow BorrowSituation = db.Borrow.Find(Name);
+            Borrow BorrowSituation = db.Borrow.FirstOrDefault( o => o.Book.LookUp==Name);
             if (Name == null)
             {
                 return HttpNotFound();

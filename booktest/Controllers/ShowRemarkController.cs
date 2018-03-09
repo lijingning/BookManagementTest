@@ -11,7 +11,7 @@ namespace booktest.Controllers
 {
     public class ShowRemarkController : Controller
     {
-        private BooksDBContext db = new BooksDBContext();
+        private booktest.Models.Database db = DatabaseContext.GetInstance();
 
         // GET: ShowRemark
         public ActionResult Index()

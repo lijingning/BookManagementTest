@@ -11,7 +11,7 @@ namespace booktest.Controllers
 {
     public class ChangeSituationController : Controller
     {
-        private BooksDBContext db = new BooksDBContext();
+        private booktest.Models.Database db = DatabaseContext.GetInstance();
 
         // GET: ChangeSituation
         public ActionResult Index()

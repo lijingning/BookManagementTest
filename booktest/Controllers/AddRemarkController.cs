@@ -12,7 +12,7 @@ namespace booktest.Controllers
 {
     public class AddRemarkController : Controller
     {
-        private BooksDBContext db = new BooksDBContext();
+        private booktest.Models.Database db = DatabaseContext.GetInstance();
 
         // GET: AddRemark
         public ActionResult Index()

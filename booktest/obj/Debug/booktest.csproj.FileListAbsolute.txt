@@ -165,3 +165,4 @@ C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrati
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.csproj.GenerateResource.Cache
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.Books.resources
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.Description.resources
+C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.IDchange.resources

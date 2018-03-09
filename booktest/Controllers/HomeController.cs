@@ -13,8 +13,7 @@ namespace booktest.Controllers
 {
     public class HomeController : Controller
     {
-       
-        private BooksDBContext db = new BooksDBContext();
+        private booktest.Models.Database db = DatabaseContext.GetInstance();
         // GET: LogIn
         public ActionResult Index()
         {
@@ -33,7 +32,7 @@ namespace booktest.Controllers
         public ActionResult LogIn(string UserName, string Password)
         {
             string ID = UserName;
-            Person p = db.persons.Find(ID);
+            Person p = db.Persons.Find(ID);
             if (UserName == null)
             {
                 ModelState.AddModelError("Error", "请输入用户名！");
