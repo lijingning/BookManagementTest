@@ -23,8 +23,8 @@ namespace booktest.Models
 
         public Person Person { get; set; }
 
-        public List<Remark> Remarks { get; set; }
+        public virtual List<Remark> Remarks { get; set; }
 
-        public List<Borrow> Borrows { get; set; }
+        public virtual List<Borrow> Borrows { get; set; }
     }
 }

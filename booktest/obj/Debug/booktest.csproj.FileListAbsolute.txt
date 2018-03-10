@@ -166,3 +166,4 @@ C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.csproj.
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.Books.resources
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.Description.resources
 C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.IDchange.resources
+C:\Users\ljn\source\repos\BookManagementTest\booktest\obj\Debug\booktest.Migrations.BooksChange.resources

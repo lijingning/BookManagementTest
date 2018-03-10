@@ -22,11 +22,11 @@ namespace booktest.Models
 
         public bool Administrator { get; set; }
 
-        public List<Book> Books { get; set; }
+        public virtual List<Book> Books { get; set; }
 
-        public List<Remark> Remarks { get; set; }
+        public virtual List<Remark> Remarks { get; set; }
 
-        public List<Borrow> Borrows { get; set; }
+        public virtual List<Borrow> Borrows { get; set; }
     }
 
 }

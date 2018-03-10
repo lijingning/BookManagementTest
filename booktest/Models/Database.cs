@@ -8,7 +8,7 @@ namespace booktest.Models
 {
     public class Database:DbContext
     {
-        public Database():base(@"Name = Database")
+        public Database():base(@"name=database")
         {
 
         }
