@@ -28,7 +28,8 @@ namespace booktest.Models
             }
         }
 
-        public bool Subscribe { get; set; }
+        public bool Subscribe { get; set; } //还未实现预约功能吧？
+        /// </summary>
 
         public string SubscribeDate { get; set; }
 

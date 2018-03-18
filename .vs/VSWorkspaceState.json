@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\booktest",
+    "\\booktest\\Views",
+    "\\booktest\\Views\\AddRemark"
   ],
   "SelectedNode": "\\booktest.sln",
   "PreviewInSolutionExplorer": false

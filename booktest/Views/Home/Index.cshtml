@@ -1,23 +1,139 @@
-﻿@{
+﻿
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<br />
-<br />
-<br />
-<form id="LogIn form" action="LogIn" method="post">
-    <div id="head">
-        <ul>
-            <li>
-                用户名：<input id="UserName" name="UserName" type="text" />
-            </li>
-            <li>
-                密码：<input id="Password" name="Password" type="password" />
-            </li>
-        </ul>
-    </div>
-    <div id="body">
-        <input id="Submit" type="submit" value="submit" onclick="return LogIn(UserName, Password)" />
-    </div>
-</form>
 
 
+<br />
+<br />
+<br />
+<p>
+    <img src="~/Content/images/33.jpg">
+    <div class="container">
+        <!-- navigation -->
+        <div class="navigation">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                    <!-- search-scripts -->
+                    <script src="~/Scripts/classie.js"></script>
+                    <script src="~/Scripts/uisearch.js"></script>
+                    <script>
+                        new UISearch(document.getElementById('sb-search'));
+                    </script>
+                    <!-- //search-scripts -->
+
+                </div>
+                <div class="clearfix"></div>
+        </div><!-- /.navbar-collapse -->
+        </nav>
+    </div>
+    <!-- //navigation -->
+    <div class="banner-info">
+        <script src="~/Scripts/responsiveslides.min.js"></script>
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 4
+                $("#slider3").responsiveSlides({
+                    auto: true,
+                    pager: true,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+            });
+        </script>
+        <div id="top" class="callbacks_container">
+            <ul class="rslides callbacks callbacks1" id="slider3">
+                <li id="callbacks1_s0" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
+                    <div class="banner-text">
+                        <h3>PREPARING STUDENTS FOR SUCCESSFUL FORTUNE</h3>
+
+                    </div>
+                </li>
+                <li id="callbacks1_s1" class="callbacks1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out;">
+                    <div class="banner-text">
+                        <h3>LOOKING FOR ACTIVITIES? WE HAVE GOT WHAT YOU NEED</h3>
+
+                    </div>
+                </li>
+                <li id="callbacks1_s2" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
+                    <div class="banner-text">
+                        <h3>MAKE YOUR DREAMS COMES TRUE AT VICTORY PRO</h3>
+
+                    </div>
+                </li>
+        </div>
+    </div>
+</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+    <form id="LogIn form" action="LogIn" method="post">
+
+
+        <div id="head">
+            <ul>
+                <li>
+                    用户名：<input id="UserName" name="UserName" type="text" />
+                </li>
+                <li>
+                    密码：<input id="Password" name="Password" type="password" />
+                </li>
+            </ul>
+        </div>
+        <div id="body">
+            <input id="Submit" type="submit" value="submit" onclick="return LogIn(UserName, Password)" />
+        </div>
+    </form>
+
+<div class="container">
+    <h3 class="tittle">SERVICES</h3>
+
+    <div class="col-md-3 ser-grid">
+        <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon glyphicon glyphicon-star"></a>
+            <h4>借书、还书</h4>
+            <p>
+                在这里你可以借书或还书，但是需要先登录。
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3 ser-grid">
+        <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon glyphicon glyphicon-map-marker"></a>
+            <h4>查询书目</h4>
+            <p>
+                在这里，你可以查找你想要的书目以及它的借阅状态。
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3 ser-grid">
+        <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon glyphicon glyphicon-pencil"></a>
+            <h4>评论区</h4>
+            <p>
+                在这里，你可以查看评论，同时留下你的评论。
+            </p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
