@@ -190,6 +190,48 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\evenuecss\animate.min.css" />
+    <Content Include="Content\evenuecss\bootstrap.css" />
+    <Content Include="Content\evenuecss\bootstrap.min.css" />
+    <Content Include="Content\evenuecss\font-awesome.css" />
+    <Content Include="Content\evenuecss\font-awesome.min.css" />
+    <Content Include="Content\evenuecss\gallery-1.css" />
+    <Content Include="Content\evenuecss\hover_pack.css" />
+    <Content Include="Content\evenuecss\ihover.css" />
+    <Content Include="Content\evenuecss\lightbox.css" />
+    <Content Include="Content\evenuecss\magnific-popup.css" />
+    <Content Include="Content\evenuecss\owl.carousel.css" />
+    <Content Include="Content\evenuecss\owl.transitions.css" />
+    <Content Include="Content\evenuecss\prettyPhoto.css" />
+    <Content Include="Content\evenuecss\style.css" />
+    <Content Include="Content\evenuecss\styles.css" />
+    <Content Include="Content\hover_pack.css" />
+    <Content Include="Content\ihover.css" />
+    <Content Include="Content\Img\11.jpg" />
+    <Content Include="Content\Img\111.jpg" />
+    <Content Include="Content\Img\30.jpg" />
+    <Content Include="Content\Img\31.jpg" />
+    <Content Include="Content\Img\32.jpg" />
+    <Content Include="Content\Img\33.jpg" />
+    <Content Include="Content\Img\39.jpg" />
+    <Content Include="Content\Img\arr.png" />
+    <Content Include="Content\Img\back2.jpg" />
+    <Content Include="Content\Img\close.png" />
+    <Content Include="Content\Img\g1.jpg" />
+    <Content Include="Content\Img\g2.jpg" />
+    <Content Include="Content\Img\g3.jpg" />
+    <Content Include="Content\Img\g4.jpg" />
+    <Content Include="Content\Img\g5.jpg" />
+    <Content Include="Content\Img\g6.jpg" />
+    <Content Include="Content\Img\g7.jpg" />
+    <Content Include="Content\Img\g8.jpg" />
+    <Content Include="Content\Img\img-sprite-hover.png" />
+    <Content Include="Content\Img\next.png" />
+    <Content Include="Content\Img\prev.png" />
+    <Content Include="Content\Img\search.png" />
+    <Content Include="Content\lightbox.css" />
+    <Content Include="Content\logo.jpg" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -201,16 +243,35 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\easing.js" />
+    <Content Include="Scripts\evenue\bootstrap.min.js" />
+    <Content Include="Scripts\evenue\custom-scripts.js" />
+    <Content Include="Scripts\evenue\html5shiv.js" />
+    <Content Include="Scripts\evenue\jquery.inview.min.js" />
+    <Content Include="Scripts\evenue\jquery.isotope.min.js" />
+    <Content Include="Scripts\evenue\jquery.js" />
+    <Content Include="Scripts\evenue\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\evenue\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\evenue\mousescroll.js" />
+    <Content Include="Scripts\evenue\owl.carousel.min.js" />
+    <Content Include="Scripts\evenue\respond.min.js" />
+    <Content Include="Scripts\evenue\smoothscroll.js" />
+    <Content Include="Scripts\evenue\wow.min.js" />
+    <Content Include="Scripts\hover_pack.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lightbox.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\move-top.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\responsiveslides.min.js" />
     <Content Include="Scripts\uisearch.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -221,7 +282,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -239,13 +302,15 @@
     <Content Include="Views\AddRemark\Index.cshtml" />
     <Content Include="Views\ShowRemark\ShowRemark.cshtml" />
     <Content Include="Views\ChangeSituation\ChangeSituation.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Index%28old%29.cshtml" />
     <Content Include="Views\Remark\Index.cshtml" />
     <Content Include="Views\Situation\Search.cshtml" />
     <Content Include="Views\Home\Index2.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="App_Start\App_Data\" />
+    <Folder Include="Scripts\contact\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

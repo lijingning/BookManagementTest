@@ -16,10 +16,10 @@ namespace booktest.Controllers
     {
         private booktest.Models.Database db = DatabaseContext.GetInstance();
         // GET: LogIn
+
         public ActionResult Index()
         {
             return View();
-
         }
 
         public ActionResult LogIn()

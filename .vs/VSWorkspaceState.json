@@ -3,7 +3,9 @@
     "",
     "\\booktest",
     "\\booktest\\Views",
-    "\\booktest\\Views\\AddRemark"
+    "\\booktest\\Views\\AddRemark",
+    "\\booktest\\Views\\BookManagement",
+    "\\booktest\\Views\\ShowRemark"
   ],
   "SelectedNode": "\\booktest.sln",
   "PreviewInSolutionExplorer": false

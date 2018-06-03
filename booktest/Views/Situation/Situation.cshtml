@@ -15,13 +15,15 @@
 
 <form id="Search form" action="Search" method="post">
     <div id="head">
-        <strong>请输入书名：</strong><input id="Name" type="search" value="" onclick="return Situation()" />
+        <strong>请输入书名：</strong><input type="text" class="form-control" placeholder="BookName" id="book name" required
+               data-validation-required-message="Please enter the book name" style="width:400px" onmouseover="this.style.backgroundColor='#FFFFCC'" onclick="return Situation()" />
     </div>
     <div id="body">
-        <input id="summit" type="submit" value="查找" onclick="return Situation(Name)" />
-    </div>
+        <botton id="summit" type="submit" class="btn btn-primary pull-left"onclick="return Situation(Name)" />查找</div>
 </form>   
 <div>
+    <br/><br/>
+
     <h4>Book</h4>
     <hr />
     <dl class="dl-horizontal">

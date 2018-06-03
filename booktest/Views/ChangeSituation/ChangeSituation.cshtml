@@ -2,10 +2,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model booktest.Models.Borrow
-
-<br />
-<br />
-<br />
+<br/>
 <h3>借书、还书</h3>
 
 @Html.DisplayNameFor(model => model.BookID)
@@ -16,15 +13,18 @@
         <div id="head">
             <ul>
                 <li>
-                    请输入所借书籍的ID：<input id="ID" name="ID" type="text" />
+                    请输入所借书籍的ID：<input type="text" class="form-control" placeholder="BookID" id="book id" required
+               data-validation-required-message="Please enter the book id" style="width:400px" onmouseover="this.style.backgroundColor='#FFFFCC'"/>
                 </li>
                 <li>
-                    请输入所还书籍的ID：<input id="ID" name="ID" type="text" />
+                    请输入所还书籍的ID：<input type="text" class="form-control" placeholder="BookID" id="book id" required
+               data-validation-required-message="Please enter the book id" style="width:200px" onmouseover="this.style.backgroundColor='#FFFFCC'"/>
                 </li>
             </ul>
         </div>
         <div id="body">
-            <input id="Submit" type="submit" value="submit" onclick="return ChangeSituation(id)" />
+            <button type="submit" class="btn btn-primary pull-left">Submit</button><br />
+            <!--<input id="Submit" type="submit" value="submit" onclick="return ChangeSituation(id)" />-->
         </div>
     </form>
 </div>

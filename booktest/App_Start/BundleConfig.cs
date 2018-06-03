@@ -8,24 +8,30 @@ namespace booktest
         // 有关捆绑的详细信息，请访问 https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+            bundles.Add(new ScriptBundle("~/bundles/evenue").Include(
+                        "~/Scripts/evenue/jquery.js",
+                        "~/Scripts/evenue/bootstrap.min.js",
+                        "~/Scripts/evenue/owl.carousel.min.js",
+                        "~/Scripts/evenue/mousescroll.js",
+                        "~/Scripts/evenue/smoothscroll.js",
+                        "~/Scripts/evenue/jquery.prettyPhoto.js",
+                        "~/Scripts/evenue/jquery.inview.min.js",
+                        "~/Scripts/evenue/wow.min.js"));
 
-            // 使用要用于开发和学习的 Modernizr 的开发版本。然后，当你做好
-            // 生产准备就绪，请使用 https://modernizr.com 上的生成工具仅选择所需的测试。
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+            bundles.Add(new StyleBundle("~/Content/evenuecss").Include(
+                        "~/Content/evenuecss/bootstrap.min.css",
+                        "~/Content/evenuecss/font-awesome.min.css",
+                        "~/Content/evenuecss/animate.min.css",
+                        "~/Content/evenuecss/owl.carousel.css",
+                        "~/Content/evenuecss/owl.transitions.css",
+                        "~/Content/evenuecss/prettyPhoto.css",
+                        "~/Content/evenuecss/magnific-popup.css",
+                        "~/Content/evenuecss/gallery-1.css",
+                        "~/Content/evenuecss/styles.css"
+                       ));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
         }
     }
 }
